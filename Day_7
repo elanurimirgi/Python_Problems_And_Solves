@@ -1,0 +1,18 @@
+#Homework1
+max_bid = int(input("Enter the maximum bid: "))
+winning_bid = 0
+
+while True:
+    bid = input("Enter a bid or press 'q' to quit: ")
+    
+    if bid == "q":
+        break
+    
+    bid = int(bid)
+    
+    if bid > winning_bid:
+        winning_bid = bid
+
+print("Sold:", winning_bid)
+
+#Homework2
